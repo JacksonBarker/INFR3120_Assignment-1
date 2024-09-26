@@ -35,4 +35,10 @@ body {
 article {
   font-family: "Poppins", sans-serif;
   margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+img {
+  float: left;
+  padding-right: 0.5em;
 }
