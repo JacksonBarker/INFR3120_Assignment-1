@@ -1,0 +1,38 @@
+#header,
+#footer {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  background-color: darkslateblue;
+  color: white;
+  font-weight: bold;
+}
+
+#header a,
+#footer a,
+#footer p {
+  all: unset;
+  margin: 1em;
+}
+
+#header a:hover,
+#footer a:hover {
+  text-decoration-line: underline;
+}
+
+#wrapper {
+  width: 960px;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  position: relative;
+}
+
+body {
+  background: slateblue;
+}
+
+article {
+  font-family: "Poppins", sans-serif;
+  margin-left: 0.5em;
+}
