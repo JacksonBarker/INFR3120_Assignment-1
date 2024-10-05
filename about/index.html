@@ -2,7 +2,29 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link
+      href="/full.css"
+      rel="stylesheet"
+      type="text/css"
+      media="only screen and
+(min-width:960px)"
+    />
+    <link
+      href="/tablet.css"
+      rel="stylesheet"
+      type="text/css"
+      media="only screen and
+(min-width:481px) and (max-width:960px)"
+    />
+    <link
+      href="/phone.css"
+      rel="stylesheet"
+      type="text/css"
+      media="only screen and
+(max-width:480px)"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
@@ -23,7 +45,7 @@
         </header>
         <section>
           <div>
-            <img src="photo.jpg" width="160" />
+            <img src="photo.jpg" />
             <p>
               My name is Jackson Barker. I am 2nd year Networking and
               Information Technology student at Ontario Tech University. I am an
@@ -32,13 +54,12 @@
             </p>
           </div>
         </section>
-        <br />
         <section>
           <p class="clear">
             <br />
             Here is a small portion of my favourite piece of classical music.
           </p>
-          <video width="320" controls poster="poster.jpg" preload>
+          <video controls poster="poster.jpg" preload>
             <source src="video.mp4" type="video/mp4" />
           </video>
         </section>

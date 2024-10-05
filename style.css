@@ -33,15 +33,6 @@
   text-decoration-line: underline;
 }
 
-.wrapper {
-  max-width: 960px;
-  height: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: white;
-  position: relative;
-}
-
 .clear {
   clear: both;
 }
@@ -54,9 +45,4 @@ article {
   font-family: "Poppins", sans-serif;
   margin-left: 0.5em;
   margin-right: 0.5em;
-}
-
-img {
-  float: left;
-  padding-right: 0.5em;
 }
