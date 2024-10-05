@@ -24,3 +24,7 @@ body {
   background-color: white;
   position: relative;
 }
+
+.logo {
+  display: none;
+}
