@@ -39,6 +39,25 @@
 
 body {
   background: slateblue;
+  background: -moz-linear-gradient(
+    top,
+    slateblue 0%,
+    white 50%,
+    slateblue 100%
+  );
+  background: -webkit-linear-gradient(
+    top,
+    slateblue 0%,
+    white 50%,
+    slateblue 100%
+  );
+  background: -o-linear-gradient(top, slateblue 0%, white 50%, slateblue 100%);
+  background: linear-gradient(
+    to bottom,
+    slateblue 0%,
+    white 50%,
+    slateblue 100%
+  );
 }
 
 article {
