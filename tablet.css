@@ -20,3 +20,21 @@ body {
   background-color: white;
   position: relative;
 }
+
+form {
+  width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+textarea {
+  width: 480px;
+}
+
+.right {
+  float: right;
+}
+
+.phonly {
+  display: none;
+}

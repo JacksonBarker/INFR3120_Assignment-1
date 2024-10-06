@@ -28,3 +28,7 @@ body {
 .logo {
   display: none;
 }
+
+textarea {
+  width: 80%;
+}

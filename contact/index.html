@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link
+      href="/full.css"
+      rel="stylesheet"
+      type="text/css"
+      media="only screen and
+(min-width:960px)"
+    />
+    <link
+      href="/tablet.css"
+      rel="stylesheet"
+      type="text/css"
+      media="only screen and
+(min-width:481px) and (max-width:960px)"
+    />
+    <link
+      href="/phone.css"
+      rel="stylesheet"
+      type="text/css"
+      media="only screen and
+(max-width:480px)"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/projects">Projects</a>
+        <a href="/contact">Contact</a>
+      </div>
+      <h2>Contact Me</h2>
+      <form
+        action="mailto:jackson.barker@ontariotechu.net"
+        method="post"
+        enctype="text/plain"
+        name="form"
+      >
+        <p>
+          <label for="name">Your name</label>
+          <br class="phonly" />
+          <input class="right" type="text" name="name" size="32" />
+        </p>
+        <p>
+          <label for="email">Your email</label>
+          <br class="phonly" />
+          <input class="right" name="email" type="email" size="40" />
+        </p>
+        <p>
+          <label for="tel">Your number</label>
+          <br class="phonly" />
+          <input class="right" type="tel" name="phone" size="32" />
+        </p>
+        <p>
+          <label for="comments">Comments</label><br />
+          <textarea name="comments" rows="6"></textarea>
+        </p>
+        <p><input type="submit" value="Submit" /></p>
+      </form>
+      <div class="footer">
+        <p>&#169; 2024 by Jackson Barker</p>
+        <br />
+        <p>
+          Email the developer:
+          <a href="mailto:jackson.barker@ontariotechu.net"
+            >jackson.barker@ontariotechu.net</a
+          >
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
